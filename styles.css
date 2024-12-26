@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+/* Style for the blockquote with class "questions" */
+.questions {
+    background-color: #f8fffe; /* Light teal background */
+    height: 50px; /* Set height of the blockquote */
+    margin-top: 20px; /* Add space above each question */
+    padding: 15px; /* Add inner spacing */
+    max-width: 600px; /* Limit the maximum width */
+    border-left: 8px solid green; /* Add a green border on the left */
+    display: flex; /* Use flexbox for content alignment */
+    align-items: center; /* Vertically center the question text */
+}
